@@ -34,6 +34,7 @@ def main():
             # Colunas do DF CAMARA -> uri/siglaTipo/codTipo/numero/ano
             # Colunas do DF SENADO -> Codigo/IdentificacaoProcesso/DescricaoIdentificacao/Sigla/Numero/Ano
 
+
             # Gerar gráficos
             gerar_graficos(df_camara, 'ano', 'siglaTipo', 'Proposições por Ano (Câmara)',
                            'views/graphs/camaraGraph/proposicoes_por_ano_camara.svg')
